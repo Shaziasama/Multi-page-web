@@ -1,0 +1,129 @@
+/* Base Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: black;
+  color: red;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Navbar Styling */
+nav {
+  background-color: yellow;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffdd57;
+}
+
+/* Home Page Styling */
+.home-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.home-title {
+  font-size: 3rem;
+  color: whitesmoke;
+}
+
+.home-description {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.season-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.season-card {
+  display: block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  background-color:#32CD32;
+  color: red;
+  font-size:x-large;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.season-card:hover {
+  transform: scale(1.1);
+  background-color: #94d2bd;
+}
+
+/* Season Pages Styling */
+.season-page {
+  text-align: center;
+  padding: 40px;
+}
+
+.season-page h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.season-page p {
+  font-size: 1.2rem;
+}
+
+.season-image {
+  max-width: 80%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Background Colors for Each Season */
+.summer-bg {
+  background: linear-gradient(to bottom, #fddb92, #d1fdff);
+}
+
+.winter-bg {
+  background: linear-gradient(to bottom, #83a4d4, #b6fbff);
+}
+
+.autumn-bg {
+  background: linear-gradient(to bottom, #ff9a8b, #ff6a88);
+}
+
+.spring-bg {
+  background: linear-gradient(to bottom, #a8e6cf, #dcedc1);
+}
+
